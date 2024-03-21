@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(161, 188, 236);
+}
+table{
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+table,th,td{
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    padding: 0.8rem;
+}
+hr{
+    border-top: 3px solid rgb(5, 4, 4);
+}
+th{
+    text-align: center;
+    font-size: large;
+    background:rgb(87, 86, 86) ;
+}
+tr{
+    background-color: rgb(160, 157, 157);
+}
+*{
+    font-family: sans-serif;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+#calls{
+    font-family:cursive;
+    background-color: rgb(69, 95, 241);
+}
+button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.no-border {
+    border: none;
+}
+.tx{
+    text-align: end;
+}
+#addColumn {
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px 0 0 0;
+}
+
+tbody td {
+    text-align: right; /* Right-align numbers */
+}
+
+tbody td[colspan="2"] {
+    text-align: center; /* Centre-align cells containing "-" */
+}
+#rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border-radius: 20px;
+
+}
+#columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    border-radius: 20px;
+}
+.site-header {
+    border-bottom: 1px solid #000000;
+}
+div.res{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+#pointer{
+    border-radius: 20px;
+}

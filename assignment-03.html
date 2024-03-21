@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Name:Sachin Samayam 
+        Student Number:22251923-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry Table</title>
+    <link rel="stylesheet" href="assignment-03.css">
+</head>
+<body>
+    <h1>Sachin's Data Entry Table</h1>
+    <hr>
+        <div>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Student Number</th>
+                <th>Assignment 1</th>
+                <th>Assignment 2</th>
+                <th>Assignment 3</th>
+                <th>Assignment 4</th>
+                <th>Assignment 5</th>
+                <th id="avg">Average</th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td id="name" align="left">Sachin</td>
+            <td id="sid" align="left">22251923</td>
+            <td align="right">45</td>
+            <td align="right">55</td>
+            <td align="right">65</td>
+            <td align="right">100</td>
+            <td align="right">93</td>
+            <td id="avg"></td>
+        </tr>
+        <tr>
+            <td id="name" align="left">Kian</td>
+            <td id="sid" align="left">223444223</td>
+            <td align="right">55</td>
+            <td align="right">54</td>
+            <td align="right">23</td>
+            <td align="right">90</td>
+            <td align="right">23</td>
+            <td id="avg"></td>
+        </tr>
+        <tr>
+            <td id="name" align="left">Glen</td>
+            <td id="sid" align="left">22155544</td>
+            <td align="right">44</td>
+            <td align="right">51</td>
+            <td align="right">42</td>
+            <td align="right">45</td>
+            <td align="right">57</td>
+            <td id="avg"></td>
+        </tr>
+        <tr>
+            <td id="name" align="left">Joseph</td>
+            <td id="sid" align="left">222443355</td>
+            <td align="right">35</td>
+            <td align="right">65</td>
+            <td align="right">56</td>
+            <td align="right">45</td>
+            <td align="right">14</td>
+            <td id="avg"></td>
+        </tr>
+        <tr>
+            <td id="name" align="left">Dorian</td>
+            <td id="sid" align="left">123398849</td>
+            <td align="right">100</td>
+            <td align="right">65</td>
+            <td align="right">45</td>
+            <td align="right">40</td>
+            <td align="right">100</td>
+            <td id="avg"></td>
+        </tr>
+        <tr>
+            <td id="name" align="left">Abdul</td>
+            <td id="sid" align="left">222902344</td>
+            <td align="right">56</td>
+            <td align="right">44</td>
+            <td align="right">33</td>
+            <td align="right">93</td>
+            <td align="right">10</td>
+            <td id="avg"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+    <br><br>
+    <button class="AddRows" id="rows">Click to Add Rows</button>
+    <br><br>
+    <button class="AddColumn" id="columns">Click to Add an Assignment</button>
+    <br><br>
+    <div class="tex">
+    <h1 class="unsubtext" id="calls"></h1></div>
+    <br><br>
+    <div class="res" id="pointer">
+    <button class="reset" id="pointer">Delete Rows</button> <button class="del" id="pointer">Delete Column</button>
+    </div>
+</body>
+<script src="assignment-03.js"></script>
+</html>
